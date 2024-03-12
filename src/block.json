@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "jhu/color-block",
+  "version": "0.0.0",
+  "title": "Color Block",
+  "category": "jhu",
+  "description": "Displays a color tile.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "color-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php",
+  "attributes": {
+    "color": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ */
+.wp-block-jhu-color-block {
+  .swatch {
+    width: 100px;
+    height: 100px;
+  }
+
+  .click-to-copy {
+    display: none;
+  }
+}
+
+.js {
+  .wp-block-jhu-color-block {
+    .click-to-copy {
+      display: inline-block;
+
+      svg {
+        width: 20px;
+        height: 20px;
+
+        &.error,
+        &.success {
+          display: none;
+        }
+      }
+    }
+  }
+}
