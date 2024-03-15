@@ -3,11 +3,13 @@ import { InspectorControls, useBlockProps } from '@wordpress/block-editor';
 import { ColorPalette, PanelBody } from '@wordpress/components';
 import ServerSideRender from '@wordpress/server-side-render';
 
-import { colors } from '@johnshopkins/color';
+import { colors as ColorsLibrary } from '@johnshopkins/brand-colors';
 
 import './editor.scss';
 
 export default function Edit({ attributes, name, isSelected, setAttributes }) {
+
+  const colors = ColorsLibrary.get();
 
   const formattedColors = colors.map(color => {
     return {

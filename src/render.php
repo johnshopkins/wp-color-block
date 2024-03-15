@@ -16,13 +16,14 @@ use JohnsHopkins\Color\Colors;
 if (isset($attributes['color'])) {
 
   $color = Colors::getById($attributes['color']);
+  $contrast = $color->getContrastingColor();
 
   ?>
 
-  <div class="wp-block-jhu-color-block type-<?= $color['type'] ?>">
+  <div class="wp-block-jhu-color-block type-<?= $color->type ?>">
 
-    <div class="swatch" style="background-color:#<?= $color['hex'] ?>">
-      <?= $color['name'] ?>
+    <div class="swatch" style="background-color:#<?= $color->hex ?>; color:#<?= $contrast->hex ?>">
+      <?= $color->name ?>
     </div>
 
     <dl>
@@ -30,26 +31,26 @@ if (isset($attributes['color'])) {
       <div>
         <dt>PMS</dt>
         <dd>
-          <?= $color['pms'] ?>
-          <?= color_block_click_to_copy($color['pms']) ?>
+          <?= $color->pms ?>
+          <?= color_block_click_to_copy($color->pms) ?>
         </dd>
       </div>
 
       <div>
         <dt>CMYK</dt>
-        <dd><?= implode(', ', $color['cmyk']) ?></dd>
+        <dd><?= implode(', ', $color->cmyk) ?></dd>
       </div>
 
       <div>
         <dt>RGB</dt>
-        <dd><?= implode(', ', $color['rgb']) ?></dd>
+        <dd><?= implode(', ', $color->rgb) ?></dd>
       </div>
 
       <div>
         <dt>HEX</dt>
         <dd>
-          #<?= $color['hex'] ?>
-          <?= color_block_click_to_copy('#' . $color['hex']) ?>
+          #<?= $color->hex ?>
+          <?= color_block_click_to_copy('#' . $color->hex) ?>
         </dd>
       </div>
     </dl>
