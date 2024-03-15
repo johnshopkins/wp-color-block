@@ -63,7 +63,7 @@ if (isset($attributes['color'])) {
 
   ?>
 
-  <div class="wp-block-jhu-color-block">
+  <div class="wp-block-jhu-color-block gutenberg-error">
     <p>Please select a color in the sidebar.</p>
   </div>
 

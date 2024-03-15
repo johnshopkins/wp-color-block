@@ -11,6 +11,11 @@
   .click-to-copy {
     display: none;
   }
+
+  &.gutenberg-error {
+    // do not show the block is there is an error (no color selected)
+    display: none;
+  }
 }
 
 .js {
