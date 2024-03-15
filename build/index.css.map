@@ -1,1 +1,0 @@
-{"version":3,"file":"index.css","mappings":";;;AAAA;;EAAA,C","sources":["webpack://@johnshopkins/color-block/./src/editor.scss"],"sourcesContent":["/**\n * The following styles get applied inside the editor only.\n */\n.wp-block-jhu-color-block {\n\n}\n"],"names":[],"sourceRoot":""}
