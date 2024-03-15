@@ -3,7 +3,7 @@
   "type": "wordpress-plugin",
   "require": {
     "composer/installers": "~1.0",
-    "johnshopkins/brand-colors": "dev-main"
+    "johnshopkins/brand-colors": "^0.1"
   },
   "config": {
     "allow-plugins": {
