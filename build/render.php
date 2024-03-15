@@ -13,9 +13,8 @@
 
 use JohnsHopkins\Color\Colors;
 
-if (isset($attributes['color'])) {
+if (isset($attributes['color']) && $color = Colors::getById($attributes['color'])) {
 
-  $color = Colors::getById($attributes['color']);
   $contrast = $color->getContrastingColor();
 
   ?>
