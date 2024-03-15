@@ -19,8 +19,8 @@ export default function Edit({ attributes, name, isSelected, setAttributes }) {
   });
 
   const getColor = (id) => {
-    const match = colors.filter(color => color.id === id);
-    return '#' + match[0].hex;
+    const color = ColorsLibrary.getByID(id);
+    return color ? '#' + color.hex : '';
   };
 
   const setColor = (hex) => {
