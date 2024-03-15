@@ -1,15 +1,9 @@
 {
   "name": "johnshopkins/wp-color-block",
   "type": "wordpress-plugin",
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:johnshopkins/color.git"
-    }
-  ],
   "require": {
     "composer/installers": "~1.0",
-    "johnshopkins/color": "dev-main"
+    "johnshopkins/brand-colors": "dev-main"
   },
   "config": {
     "allow-plugins": {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b1d2a338576a89321d88ea255da97234",
+    "content-hash": "458c8193e5ecfa45d5bd4355a62aba98",
     "packages": [
         {
             "name": "composer/installers",
@@ -158,17 +158,17 @@
             "time": "2021-09-13T08:19:44+00:00"
         },
         {
-            "name": "johnshopkins/color",
+            "name": "johnshopkins/brand-colors",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/johnshopkins/color.git",
-                "reference": "2b2438035501f1b06e1ac608a064edb611482890"
+                "url": "https://github.com/johnshopkins/brand-colors.git",
+                "reference": "962244ec7541d6126bd076f02798df5aafee7629"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnshopkins/color/zipball/2b2438035501f1b06e1ac608a064edb611482890",
-                "reference": "2b2438035501f1b06e1ac608a064edb611482890",
+                "url": "https://api.github.com/repos/johnshopkins/brand-colors/zipball/962244ec7541d6126bd076f02798df5aafee7629",
+                "reference": "962244ec7541d6126bd076f02798df5aafee7629",
                 "shasum": ""
             },
             "require-dev": {
@@ -181,11 +181,7 @@
                     "JohnsHopkins\\Color\\": "src/"
                 }
             },
-            "scripts": {
-                "test": [
-                    "./vendor/bin/phpunit ./tests/php --bootstrap vendor/autoload.php"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
                     "name": "Jen Wachter",
@@ -193,17 +189,17 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/johnshopkins/color/tree/main",
-                "issues": "https://github.com/johnshopkins/color/issues"
+                "issues": "https://github.com/johnshopkins/brand-colors/issues",
+                "source": "https://github.com/johnshopkins/brand-colors/tree/main"
             },
-            "time": "2024-03-14T20:36:22+00:00"
+            "time": "2024-03-15T12:45:02+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "johnshopkins/color": 20
+        "johnshopkins/brand-colors": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
