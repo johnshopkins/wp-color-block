@@ -163,12 +163,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnshopkins/brand-colors.git",
-                "reference": "962244ec7541d6126bd076f02798df5aafee7629"
+                "reference": "6c6307f503dae8b1a579e395c8e8da2868dd6caf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnshopkins/brand-colors/zipball/962244ec7541d6126bd076f02798df5aafee7629",
-                "reference": "962244ec7541d6126bd076f02798df5aafee7629",
+                "url": "https://api.github.com/repos/johnshopkins/brand-colors/zipball/6c6307f503dae8b1a579e395c8e8da2868dd6caf",
+                "reference": "6c6307f503dae8b1a579e395c8e8da2868dd6caf",
                 "shasum": ""
             },
             "require-dev": {
@@ -192,7 +192,7 @@
                 "issues": "https://github.com/johnshopkins/brand-colors/issues",
                 "source": "https://github.com/johnshopkins/brand-colors/tree/main"
             },
-            "time": "2024-03-15T12:45:02+00:00"
+            "time": "2024-03-15T15:42:52+00:00"
         }
     ],
     "packages-dev": [],
